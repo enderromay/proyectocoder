@@ -1,0 +1,337 @@
+body {
+    background-color: rgb(219, 205, 205);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "Roboto";
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  header {
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgb(21, 21, 41);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    text-align: center;
+  }
+  
+  header a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  header .container nav a {
+    color: rgb(238, 233, 233);
+    text-decoration: none;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .parrafo .proyecto .main .text_main_buttons {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    color: rgb(2, 1, 1);
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .parrafo .proyecto .main .text_main_buttons .item {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .home {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10vw;
+    background-color: transparent;
+  }
+  
+  .home .home-text {
+    height: auto;
+    width: 75%;
+    text-align: left;
+    background-color: rgb(243, 230, 230);
+    padding: 50px;
+    border-radius: 25px;
+    opacity: 0.7;
+    margin: auto;
+  }
+  
+  .client {
+    text-align: center;
+    flex-direction: row;
+    margin-top: 200px;
+    height: 40px;
+    color: rgb(31, 26, 26);
+    height: 100px;
+  }
+  
+  .logos {
+    margin-top: 10px;
+    gap: 30px;
+  }
+  
+  .cuadrado {
+    width: 50px;
+    margin-top: 400px;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .video {
+    margin-top: -350px;
+    align-items: stretch;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .ruta {
+    margin-top: 0px;
+    gap: 0px;
+    display: flex;
+  }
+  
+  #contacto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 150px;
+  }
+  
+  .contact_form {
+    width: 500px;
+    overflow: hidden;
+  }
+  
+  .contact_form h2 {
+    background: none repeat scroll 0 0 #c1bfbf;
+    border-radius: 5px;
+    color: #164a20;
+    display: block;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 100%;
+  }
+  
+  .contact_form ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .contact_form li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  
+  .contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+  }
+  
+  .contact_form input {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+  }
+  
+  .contact_form textarea {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .contact_form button {
+    margin-left: 90px;
+  }
+  
+  .contact_form input, .contact_form textarea {
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    color: #888;
+    font-size: 12px;
+    padding-right: 30px;
+  }
+  
+  .contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 80px;
+  }
+  
+  .contact_form input:required:valid, .contact_form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+  }
+  
+  button.submit {
+    padding: 9px 17px;
+    font-family: Helvetica, calibri, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #444;
+    border: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+    background-image: linear, 0% 0%, 0% 100%, from(#fff), to(#bbb);
+    background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  button.submit:hover {
+    opacity: 0.55;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  button.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset;
+  }
+  
+  fieldset {
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+  }
+  
+  input[type=radio] {
+    width: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 80px;
+  }
+  
+  .desarrollar {
+    color: black;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .flex-container {
+    background-color: rgb(4, 4, 20);
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    color: rgb(0, 0, 0);
+  }
+  
+  .flex-box {
+    flex-direction: row;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      background-color: rgb(0, 0, 0);
+    }
+    .text_main_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+    }
+    .home-text {
+      margin-top: 1px;
+      text-align: center;
+    }
+    header .container nav a {
+      text-align: center;
+      flex-direction: row-reverse;
+    }
+  }
+  @media (max-width: 320px) {
+    .item {
+      padding: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 10px;
+      color: rgb(0, 0, 0);
+    }
+    .parrafo {
+      margin-top: 20px;
+    }
+    header {
+      width: 100%;
+      padding: 1px;
+    }
+    .flex-container {
+      background-color: none;
+      padding: 1px;
+    }
+    .home-text {
+      align-content: space-around;
+      text-align: center;
+      background-position: fixed;
+    }
+    .logos {
+      margin-top: -20px;
+    }
+    .cuadrado {
+      margin-top: 40px;
+      gap: 10px;
+      flex-direction: column;
+    }
+    .video {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+  }
+  @media (max-width: 375) {
+    header .container nav a {
+      text-align: center;
+      flex-direction: row-reverse;
+    }
+  }
